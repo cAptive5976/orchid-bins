@@ -55,6 +55,7 @@ sleep 2
 echo "[ok]"
 echo "Activation de la suite de commandes Orchid ..."
 /usr/bin/orchid-sync
+sudo orchid-version
 sleep 2
 echo "[ok]"
 echo ""
