@@ -49,7 +49,7 @@ cd /usr/share/orchid/tools
 echo "[ok]"
 echo "Récupération et activation de la méta-commande Orchid ..."
 cd /usr/bin
-wget https://raw.githubusercontent.com/cAptive5976/orchid-bins/main/bins/orchid-sync
+wget https://raw.githubusercontent.com/cAptive5976/orchid-reborn/main/testing/tools/orchid-sync
 sudo chmod +x /usr/bin/orchid-sync
 sleep 2
 echo "[ok]"
