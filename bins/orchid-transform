@@ -44,7 +44,7 @@ echo "[ok]"
 echo "Récupération des outils Orchid ..."
 cd /usr/share/orchid
 sudo git clone https://github.com/cAptive5976/orchid-bins.git
-sudo git clone https://github.com/wamuu-sudo/wallpapers.git
+sudo git clone https://github.com/cAptive5976/orchid-wallpapers.git
 cd /usr/share/orchid/tools
 echo "[ok]"
 echo "Récupération et activation de la méta-commande Orchid ..."
