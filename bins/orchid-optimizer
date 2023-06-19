@@ -47,6 +47,11 @@ echo "GCC est désormais optimisé par rapport à votre processeur."
 echo "Nous allons ensuite recompiler l'entièreté du système avec ces nouvelles optimisations. Attention, cette compilation peut prendre plusieurs heures ou même jours !"
 sudo emerge --emptytree @installed -vq
 echo "[ok]"
+echo ""
+echo "Nous allons maintenant actualisé la version d'Orchid"
+sudo orchid-sync
+sudo orchid-version
+echo "[ok]"
 echo "Félicitations ! Vous disposez d'un système optimisé complet, de façon stable."
 echo "Il est conseillé de reboot votre système afin de prendre en compte les changements."
 echo "Merci de nous avoir choisis !"
