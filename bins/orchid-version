@@ -3,3 +3,6 @@ cd /etc
 sudo rm -rf os-release && sudo rm -rf gentoo-release
 sudo wget https://raw.githubusercontent.com/cAptive5976/orchid-reborn/main/testing/gentoo-release &> /dev/null
 sudo wget https://raw.githubusercontent.com/cAptive5976/orchid-reborn/main/testing/os-release &> /dev/null
+cd /usr/lib
+sudo rm -rf os-release
+sudo wget https://raw.githubusercontent.com/cAptive5976/orchid-reborn/main/testing/os-release &> /dev/null
