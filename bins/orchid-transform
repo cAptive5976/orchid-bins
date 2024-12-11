@@ -33,7 +33,7 @@ echo "Cet outil permets d'avoir la suite de commandes et d'outils Orchid, sur vo
 echo "Merci de noter que cet outil est en cours de développement."
 sleep 2
 echo "Nous vérifions que les prérequis sont bien installés ..."
-sudo emerge -q dev-vcs/git flatpak eix > /dev/null
+sudo emerge -q dev-vcs/git flatpak eix fastfetch > /dev/null
 echo "[ok]"
 echo "Création de l'arboresence nécessaire ..."
 sudo mkdir -p /usr/share/orchid
